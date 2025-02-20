@@ -12,7 +12,7 @@ class Item(BaseModel):
     is_offer: Union[bool, None] = None
 
 
-@app.get("/")
+@app.get("/hello")
 def read_root():
     return {"Hello": "World"}
 
